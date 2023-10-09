@@ -1,0 +1,47 @@
+footer{
+    padding: 100px 25px;
+    .container{
+        max-width: 1320px;
+        margin:0 auto;
+        .infos{
+            display: grid;
+            grid-template-columns: repeat(4 , auto);
+            justify-content: center;
+            gap: 200px;
+            @media screen and (max-width:992px) {
+                grid-template-columns: auto;
+                gap: 20px;
+            }
+            .info{
+                .info_title{
+                    max-width: 150px;
+                }
+                h3{
+                    border-bottom: 2px solid  #1089FF;
+                    font-size: 16px;
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: 400;
+                }
+                img{
+                    margin-bottom: 20px;
+                }
+                a{
+                    display: inline-block;
+                    margin-top: 20px;
+                    color: #1089FF;
+                }
+                .width{
+                    max-width: 300px;
+                    color: gray;
+                }
+                p{
+                    font-size: 15px;
+                    color: #1089FF;
+                    margin-top: 10px;
+                    font-family: 'Mulish', sans-serif;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}

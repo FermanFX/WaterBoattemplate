@@ -1,0 +1,44 @@
+main{
+    #getin{
+        background-color: #1088ffa4;
+        padding: 100px 25px;
+        .container{
+            max-width: 1320px;
+            margin: 0 auto;
+            text-align: center;
+            .getin{
+               .getin_text{
+                .getin_text_button{
+                    a{
+                        margin-top: 20px;
+                        display: inline-block;
+                        padding: 20px 80px;
+                    background-color: orange;
+                    border-radius: 4px;
+                    color: white;
+                    }
+                }
+                .getin_text_title{
+                    h2{
+                        font-size: 32px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: 500;
+                        color: white;
+                    }
+
+                }
+                .getin_text_description{
+                    p{
+                        font-size: 20px;
+                        font-family: 'Mulish', sans-serif;
+                        font-weight: 300;
+                        color: white;
+                    }
+                }
+               }
+
+            }
+
+        }
+    }
+}

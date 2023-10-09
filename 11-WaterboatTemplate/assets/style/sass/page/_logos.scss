@@ -1,0 +1,43 @@
+main{
+    #logos{
+        padding: 0px 25px 100px;
+        .container{
+            max-width: 1320px;
+            margin: 0 auto;
+            .logos{
+                display: grid;
+                grid-template-columns: repeat(3 , auto);
+
+                justify-content: center;
+                gap: 100px;
+                @media screen and (max-width:992px){
+                   display: grid;
+                   grid-template-columns: auto;
+                }
+                .logo{
+                    .logo_text{
+                        .logo_text_title{
+                            margin-top: 10px;
+                            h3{
+                                font-size: 20px;
+                                font-family: 'Oswald', sans-serif;
+                                font-weight: 400;
+                            }
+                        }
+                        .logo_text_description{
+                            max-width: 350px;
+                            margin-top: 10px;
+                            p{
+                                font-family: 'Mulish', sans-serif;
+                                font-size: 17px;
+                                font-weight: 300;
+                                color: gray;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

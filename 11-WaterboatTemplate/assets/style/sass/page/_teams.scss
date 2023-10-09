@@ -1,0 +1,90 @@
+main{
+    #team{
+        padding: 100px 25px;
+        .container{
+            max-width: 1320px;
+            text-align: center;
+            margin: 0 auto;
+            .team_text{
+                .team_text_title{
+                   span{
+                    font-family: 'Dancing Script', cursive;
+                    font-size: 17px;
+                    color: #1089FF;
+                   }
+                }
+                .team_text_description{
+                    h3{
+                        font-size: 28px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: 400;
+                    }
+                }
+                .team_text_line{
+                    display: grid;
+                    justify-content: center;
+                    margin-top: 10px;
+                    h3{
+                        height: 3px;
+                        width: 60px;
+                        background-color: #1089FF;
+                    }
+                }
+            }
+        }
+        .team_cards{
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(4 ,auto);
+            justify-content: center;
+            gap: 20px;
+            .team_card{
+
+                text-align: center;
+                width: 210px;
+                .team_text{
+                    .team_text_title{
+                        h3{
+                            font-family: 'Oswald', sans-serif;
+                        }
+                    }
+                    .team_text_description{
+                        span{
+                            font-family: 'Mulish', sans-serif;
+                            color: #1089FF;
+                        }
+                    }
+                }
+
+                .team_image{
+                    width: 210px;
+                    img{
+                        width: 100%;
+                        height: 100%
+                    }
+                }
+
+            }
+        }
+    }
+}
+@media screen and (max-width:992px) {
+    #team{
+        .container{
+            .team_cards{
+                grid-template-columns: repeat(2 , auto);
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:767px) {
+    #team{
+        .container{
+            .team_cards{
+                grid-template-columns: auto;
+            }
+        }
+    }
+    
+}

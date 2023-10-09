@@ -1,0 +1,71 @@
+main{
+    #cruise{
+        
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+        background-image:  url(./../../image/hero_1.jpg.webp) ;
+        position: relative;
+        z-index: 10;
+        &::before {
+            content: ""; // ::before and ::after both require content
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(120deg, #00000044, #00000049);
+            opacity: .7;
+        }
+        
+        .container{
+          position: relative;
+          z-index: 10;
+            max-width: 1320px;
+            margin: 0 auto;
+            text-align: center;
+            .cruise_text{
+                
+                display: grid;
+                justify-content: center;
+                padding-top: 250px;
+                padding-bottom: 250px;
+                .cruise_text_title{
+                    h1{ 
+
+                        font-size: 48px;
+                        font-weight: 500;
+                        color: white;
+font-family: 'Oswald', sans-serif;
+                    }
+
+                }
+                .cruise_text_description{
+                  
+                    text-align: center;
+                    max-width: 600px;
+                    p{
+                        font-family: 'Mulish', sans-serif;
+                        color: white;
+                        font-size: 17px;
+                        font-weight: 300;
+                    }
+
+                }
+                .cruise_text_button{
+                    a{
+                        display: inline-block;
+                        margin-top: 100px;
+                        padding: 17px 40px;
+                        color: white;
+                        border-radius: 6px;
+                        background-color: blue;
+                    }
+                }
+            }
+        
+        }
+    }
+    
+}

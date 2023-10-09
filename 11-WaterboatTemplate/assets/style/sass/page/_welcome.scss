@@ -1,0 +1,82 @@
+main{
+    #welcome{
+        padding: 100px 25px;
+        .container{
+            max-width: 1320px;
+            margin: 0 auto;
+           
+            .welcome{
+                
+                
+                display: grid;
+                grid-template-columns: repeat(2 , auto);
+                gap: 20px;
+                .welcome_image{
+                    img{
+                        width: 100%;
+                    height: 360px;
+                    }
+                }
+                .welcome_text{
+                    margin-top: 10px;
+                }
+                .aboutus{
+                  span{
+                    font-family: 'Dancing Script', cursive;
+                    color: #1089FF ;
+                  }
+
+                }
+                .welcome_text_description{
+                    p{
+                        font-size: 17px;
+                        font-family: 'Mulish', sans-serif;
+                        font-weight: 300;
+                        color: gray;
+                        margin-top: 20px;
+                    }
+                }
+                .welcome_text_title{
+                    h3{
+                        font-size: 28px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: 400;
+                    }
+                }
+                .welcome_text_line{
+                    h3{
+                        height: 2px;
+                        width: 50px;
+                        background-color: #1089FF;
+                    }
+                }
+                .welcome_text_button{
+                    a{
+                        padding: 20px 50px;
+                        background-color: #1089FF;
+                        border-radius: 4px;
+                        display: inline-block;
+                        margin-top: 20px;
+                        color: white;
+                        font-family: 'Oswald', sans-serif;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width:992px) {
+    main{
+        #welcome{
+            .container{
+                .welcome{
+                  display: grid;
+                  grid-template-columns: auto;
+                }
+            }
+        }
+    }
+    
+}

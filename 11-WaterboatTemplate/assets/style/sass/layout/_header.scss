@@ -1,0 +1,75 @@
+header{
+    padding: 0px 20px;
+    .menu{
+        i{
+            font-size: 20px;
+            display: none;
+        }
+    }
+    .container{
+
+        max-width: 1320px;
+        margin: 0 auto;
+  
+        .waterboat_abouts{
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: repeat(4,auto);
+            align-items: center;
+            .title{
+                font-size: 19px;
+            }
+ 
+            .waterboat_about{
+                display: flex;
+                align-items: center;
+                
+              
+                font-family: 'Oswald', sans-serif;
+                .waterboat_text{
+                    padding: 10px;
+                    .waterboat_text_description{
+                        font-weight: 300;
+                        color: gray;
+                        font-family: 'Mulish', sans-serif;
+                    }
+                    
+                 
+                }
+               
+                .icon{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #17385a;
+                    border-radius: 50%;
+                    height: 40px;
+                    width: 40px;
+                    
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:992px) {
+ header{
+    display: flex;
+  align-items: center;
+  .menu{
+    i{
+        font-size: 30px;
+        display: inline-block;
+      }
+  }
+    
+    .container{
+        .waterboat_abouts{
+            .waterboat_about{
+                display: none;
+                
+            }
+        }
+
+    }
+ }   
+}

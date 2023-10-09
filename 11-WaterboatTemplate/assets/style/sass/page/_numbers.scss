@@ -1,0 +1,49 @@
+main{
+    #numbers{
+        padding: 100px 25px;
+        background-color: #1088ffa4;
+        .container{
+            max-width: 1320px;
+            margin: 0 auto;
+            .numbers{
+                
+                display: grid;
+                grid-template-columns: repeat(5 ,auto);
+                
+                  .number_text{
+                    text-align: center;
+                    .number_text_title{
+                        h3{
+                            font-size: 50px;
+                            font-family:    'Oswald', sans-serif;
+                            color: white;
+                        }
+                    }
+                    .number_text_description{
+                        span{
+                            font-size: 17px;
+                            color: rgb(255, 255, 255);
+                            font-family: 'Mulish', sans-serif;
+
+                        }
+                    
+                }
+                  }
+            }
+        }
+    }
+}
+@media  screen and (max-width:992px) {
+    main{
+        #numbers{
+            .container{
+                .numbers{
+                    display: grid;
+                    grid-template-columns: auto;
+                    gap: 30px;
+                }
+            }
+        }
+    }
+    
+}

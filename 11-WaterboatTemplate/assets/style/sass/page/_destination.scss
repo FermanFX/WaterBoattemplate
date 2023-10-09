@@ -1,0 +1,136 @@
+main{
+    #destination{
+        padding: 100px 25px;
+        .container{
+            max-width: 1320px;
+            margin: 0 auto;
+            text-align: center;
+            .destination{
+                .destination_text{
+                    .destination_text_title{
+                       span{
+                        font-family: 'Dancing Script', cursive;
+                        font-size: 17px;
+                        color: #1089FF;
+                       }
+                    }
+                    .destination_text_description{
+                        h3{
+                            font-size: 28px;
+                            font-family: 'Oswald', sans-serif;
+                            font-weight: 400;
+                        }
+                    }
+                    .destination_text_line{
+                        display: grid;
+                        justify-content: center;
+                        margin-top: 10px;
+                        h3{
+                            height: 3px;
+                            width: 60px;
+                            background-color: #1089FF;
+                        }
+                    }
+                }
+               .destination_cards{
+
+                display: grid;
+                grid-template-columns: repeat(3 , auto);
+                gap: 20px;
+                justify-content: center;
+                .destination_card{
+                   
+                    text-align: start;
+                    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+                    width: 350px;
+                    .destination_card_text{
+                        padding: 20px;
+                        .destination_card_text_title{
+                            display: flex;
+                            align-items: center;
+                            i{
+                                margin-right: 5px;
+                            }
+                            .title {
+                                h3{
+                                    font-size: 18px;
+                                font-family: 'Oswald', sans-serif;
+                                font-weight: 500;
+                                }
+                            }
+
+                        }
+                        .destination_card_text_description{
+                            display: flex;
+                            justify-content: space-between;
+                            .destination_card_date{
+
+                                display: flex;
+                                align-items: center;
+                                i{
+                                    margin-right: 5px;
+                                    color: gray;
+                                }
+                            }
+                            .description{
+                                font-size: 17px;
+                                font-family: 'Mulish', sans-serif;
+                                font-weight: 300;
+                                color: gray;
+                            }
+
+                        }
+                        .destination_card_price{
+
+                            padding: 10px 20px;
+                            background-color: #1089FF;
+                            border-radius: 4px;
+                            font-size: 16px;
+                            span{
+                                color: white;
+                            }
+                        }
+                    }
+                    .destination_card_image{
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+               }
+            }
+        }
+    }
+}
+@media screen and (max-width:992px) {
+    main{ 
+        #destination{
+            .container{
+               .destination{
+                .destination_cards{
+                    display: grid;
+                    grid-template-columns: repeat(2 , auto);
+                   }
+               }
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:767px) {
+    main{ 
+        #destination{
+            .container{
+               .destination{
+                .destination_cards{
+                    display: grid;
+                    grid-template-columns: auto;
+                   }
+               }
+            }
+        }
+    }
+    
+}
