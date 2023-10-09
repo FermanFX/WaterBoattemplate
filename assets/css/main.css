@@ -1,0 +1,225 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+/* CSS reset */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+input {
+  border: 1px solid #b0b0b0;
+  padding: 3px 5px 4px;
+  color: #979797;
+  width: 190px;
+}
+
+address, caption, cite, code, dfn, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+caption, th {
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+q:before, q:after {
+  content: "";
+}
+
+abbr, acronym {
+  border: 0;
+}
+
+body {
+  line-height: 1.7;
+  color: gray;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.info {
+  border: 1px solid black;
+  width: 100%;
+  height: 300px;
+  line-height: 1.5;
+}
+
+.container {
+  position: relative;
+  width: 80%;
+  height: 200px;
+  margin: auto;
+}
+
+.logo {
+  width: 10%;
+  height: 50%;
+}
+
+.text1 {
+  display: inline;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 10%;
+  font-size: 30px;
+}
+
+.text2 {
+  display: inline;
+  width: 10%;
+  font-size: 30px;
+}
+
+.text3 {
+  display: inline;
+  margin-left: 10%;
+  width: 10%;
+  font-size: 30px;
+}
+
+nav {
+  position: relative;
+  width: 100%;
+  height: 32%;
+  border: 1px solid black;
+  background-color: rgb(64, 64, 235);
+}
+
+nav > div {
+  display: inline;
+  color: white;
+  font-size: 20px;
+}
+
+.home {
+  margin-top: 20px;
+  margin-left: 33%;
+}
+
+.about_us {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.services {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.testimonials {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.blog {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.contact {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.home_image {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  border: 1px solid black;
+  background-color: rgb(105, 105, 230);
+  background-image: url(./../image/image.jpg);
+}
+
+h2, p {
+  position: absolute;
+  color: white;
+}
+
+h2 {
+  right: 50px;
+  top: 100px;
+  font-size: 40px;
+}
+
+.p2 {
+  right: 50px;
+  top: 200px;
+}
+
+button {
+  position: absolute;
+  z-index: 10;
+  color: white;
+  background-color: rgb(233, 152, 3);
+  width: 100px;
+  height: 40px;
+  right: 50px;
+  top: 300px;
+}
+
+.container2 {
+  width: 80%;
+  margin: auto;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cal-6 {
+  width: 50%;
+}
+
+.card1, .card2, .card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 2%;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.cash {
+  margin-left: 15%;
+  width: 100px;
+  height: 20px;
+  background-color: blue;
+}
+
+.cal-4 {
+  width: 33.3333333333%;
+}
+
+.row_cards {
+  display: flex;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=main.css.map */
